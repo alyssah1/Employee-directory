@@ -3,7 +3,6 @@ import API from "../utils/API";
 import "./style.css";
 
 
-
 class TableData extends Component {
     state = {
         default: [],
@@ -15,14 +14,13 @@ class TableData extends Component {
         API.getUsers()
             .then(res => this.setState({ employees: res.data.results }))
             .then(res => this.setState({ default: this.state.employees }))
-            .then(res => console.log(this.state.employees))
     }
 
 
-    filterByName = event => {
-        const userName = event.target.value;
+    filterByName = e => {
+        const userName = e.target.value;
 
-        const filteredEmployee = this.state.default.filter(element => element.name.first.includes(userName) || element.name.last.includes(userName));
+        const filteredEmployee = this.state.default.filter(e => e.name.first.includes(userName) || e.name.last.includes(userName));
         this.setState({ employees: filteredEmployee });
     }
 
