@@ -53,10 +53,12 @@ class TableData extends Component {
                 <table className="table table-light">
                     <thead>
                         <tr>
-                            <th scope="col">Picture</th>
-                            <th scope="col" onClick={this.sortByFirstName}>Name</th>
-                            <th scope="col">Phone</th>
-                            <th scope="col">Email</th>
+                            <th>Picture</th>
+                            <th onClick={this.sortByFirstName}>Name</th>
+                            <th>Phone</th>
+                            <th>Email</th>
+                            <th>Location</th>
+                        
                         </tr>
                     </thead>
                     <tbody>
@@ -67,6 +69,7 @@ class TableData extends Component {
                                     <td>{e.name.first} {e.name.last}</td>
                                     <td>{e.phone}</td>
                                     <td>{e.email}</td>
+                                    <th>{e.location.city}, {e.location.state}</th>
                                 </tr>
                             ))
                         }
