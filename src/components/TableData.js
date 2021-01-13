@@ -24,7 +24,7 @@ class TableData extends Component {
 
         const filteredEmployee = this.state.default.filter(element => element.name.first.includes(userName) || element.name.last.includes(userName));
         this.setState({ employees: filteredEmployee });
-    };
+    }
 
     sortByFirstName = () => {
         let sortEmployee = this.state.default;
