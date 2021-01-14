@@ -20,10 +20,14 @@ The page will reload if you make edits.\
 
 # Description
 The user is able to view the entire employee directory and also filter employees by name.
-The application shows the employees name, phone number, email, and location.
+The application shows the employees picture, name, phone number, email, and location.
 
 # Application Screenshot
 ![screenshot](./image/image1.png)
+
+# Application Link
+![link](https://alyssah1.github.io/Employee-directory/)
+
 
 
 # Questions
