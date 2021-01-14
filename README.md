@@ -25,6 +25,9 @@ The application shows the employees picture, name, phone number, email, and loca
 # Application Screenshot
 ![screenshot](./image/image1.png)
 
+# Application Link
+[https://alyssah1.github.io/Employee-directory/](https://alyssah1.github.io/Employee-directory/)
+
 
 # Questions
 If you have any questions please use the contacts down below:
